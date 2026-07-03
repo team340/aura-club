@@ -352,7 +352,7 @@
 .toast__emoji { font-size: 1.2rem; }
 
 /* ---------- Footer ---------- */
-.footer { position: relative; margin-top: clamp(48px, 8vw, 96px); border-top: var(--bd); background: var(--ink); color: var(--cream); }
+.footer { position: relative; margin-top: clamp(32px, 5vw, 56px); border-top: var(--bd); background: var(--ink); color: var(--cream); }
 .footer__band { background: var(--aura); border-bottom: var(--bd); }
 .footer__band .marquee__track { font-family: var(--font-display); font-weight: 700; font-size: clamp(1.4rem, 4vw, 2.4rem); color: var(--ink); padding-block: 14px; animation-duration: 30s; }
 .footer__band .marquee__item::after { content: "❤"; color: var(--white); }

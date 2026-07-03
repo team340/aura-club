@@ -195,7 +195,7 @@
 .cta-band p { color: var(--ink); max-width: 46ch; margin-inline: auto; }
 
 /* ---------- Page header (interior pages) ---------- */
-.page-head { position: relative; padding-block: clamp(36px, 6vw, 72px); text-align: center; overflow: hidden; }
+.page-head { position: relative; padding-block: clamp(22px, 3.5vw, 44px); text-align: center; overflow: hidden; }
 .page-head__title { font-size: var(--fs-h1); margin-bottom: 10px; }
 .page-head__sub { font-size: var(--fs-lead); color: var(--ink-soft); max-width: 52ch; margin-inline: auto; }
 .crumbs { font-family: var(--font-mono); font-size: 0.78rem; color: var(--ink-soft); margin-bottom: 14px; text-transform: uppercase; letter-spacing: 0.1em; }
@@ -241,7 +241,7 @@
 @media (max-width: 780px) { .pdp { grid-template-columns: 1fr; } .pdp__info { position: static; } }
 
 /* ---------- Checkout ---------- */
-.checkout { display: grid; grid-template-columns: 1.3fr 0.7fr; gap: clamp(24px, 4vw, 44px); align-items: start; }
+.checkout { display: grid; grid-template-columns: 1.3fr 0.7fr; gap: clamp(18px, 2.6vw, 30px); align-items: start; }
 .card-panel { background: var(--white); border: var(--bd); border-radius: var(--r-lg); box-shadow: var(--shadow-hard-sm); padding: clamp(20px, 3vw, 30px); }
 .form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
 .field { display: flex; flex-direction: column; gap: 6px; }
@@ -332,7 +332,7 @@
 .steps-nav {
   grid-column: 1 / -1;
   display: flex; align-items: flex-start; justify-content: center;
-  gap: 8px; max-width: 600px; margin: 0 auto clamp(22px, 4vw, 40px); padding: 0;
+  gap: 8px; max-width: 600px; margin: 0 auto clamp(4px, 1vw, 10px); padding: 0;
 }
 .step-dot { display: flex; flex-direction: column; align-items: center; gap: 8px; flex: 0 0 auto; width: 88px; text-align: center; }
 .step-dot__num {

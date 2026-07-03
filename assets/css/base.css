@@ -91,8 +91,8 @@ ul { margin: 0; padding: 0; list-style: none; }
 }
 .wrap--narrow { max-width: var(--container-narrow); }
 
-.section { padding-block: clamp(48px, 8vw, 104px); position: relative; }
-.section--tight { padding-block: clamp(32px, 5vw, 56px); }
+.section { padding-block: clamp(38px, 5vw, 72px); position: relative; }
+.section--tight { padding-block: clamp(24px, 3vw, 40px); }
 
 .center { text-align: center; }
 .stack > * + * { margin-top: var(--sp-4); }
@@ -123,7 +123,7 @@ ul { margin: 0; padding: 0; list-style: none; }
   animation: hue-slide 8s ease-in-out infinite;
 }
 
-.section-head { max-width: 640px; margin-bottom: clamp(28px, 4vw, 52px); }
+.section-head { max-width: 640px; margin-bottom: clamp(20px, 3vw, 36px); }
 .section-head--center { margin-inline: auto; text-align: center; }
 .section-head p { color: var(--ink-soft); font-size: var(--fs-lead); margin: 0; }
 
