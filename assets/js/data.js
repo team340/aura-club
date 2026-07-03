@@ -22,7 +22,7 @@
       meaning: "Aquamarine is the stone of steady seas. It's said to quiet the overthinking, unlock honest words, and keep your head clear when the group chat turns to chaos.",
       facts: {
         Beads: "8mm genuine polished aquamarine",
-        Fit: "Stretch elastic, 6–8\" (one size hugs most)",
+        Fit: "Stretch elastic, ~16–20cm (fits most wrists)",
         Made: "Hand-strung & knotted to order",
         Finish: "Natural stone — every bead is a little different"
       }
@@ -43,7 +43,7 @@
       meaning: "Worn by pharaohs, now worn by you between lectures. Lapis is the wisdom stone — said to sharpen intuition and hand you the confidence to say the real thing.",
       facts: {
         Beads: "8mm genuine lapis lazuli with pyrite",
-        Fit: "Stretch elastic, 6–8\" (one size hugs most)",
+        Fit: "Stretch elastic, ~16–20cm (fits most wrists)",
         Made: "Hand-strung & knotted to order",
         Finish: "Natural stone — gold flecks vary bead to bead"
       }
@@ -64,7 +64,7 @@
       meaning: "The endurance stone. Red Jasper is said to steady your nerves, stoke your fire, and keep you rooted when your ambition tries to leave your body.",
       facts: {
         Beads: "8mm genuine red jasper",
-        Fit: "Stretch elastic, 6–8\" (one size hugs most)",
+        Fit: "Stretch elastic, ~16–20cm (fits most wrists)",
         Made: "Hand-strung & knotted to order",
         Finish: "Natural stone — warm reds shift in the light"
       }
@@ -85,7 +85,7 @@
       meaning: "Ancient travelers wore turquoise to guard the journey and invite fortune. Consider it your wearable green light — delusion optional, but encouraged.",
       facts: {
         Beads: "8mm genuine turquoise (howlite-matrix)",
-        Fit: "Stretch elastic, 6–8\" (one size hugs most)",
+        Fit: "Stretch elastic, ~16–20cm (fits most wrists)",
         Made: "Hand-strung & knotted to order",
         Finish: "Natural stone — matrix veining is one of a kind"
       }

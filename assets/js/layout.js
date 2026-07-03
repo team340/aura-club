@@ -85,7 +85,7 @@
           "</div>" +
         "</div>" +
         '<div class="wrap footer__bottom">' +
-          "<span>© " + year + " Aura Club — made by hand, worn with intention.</span>" +
+          "<span>© " + year + " Aura Club · prices in AUD (incl. GST) · ships Australia-wide</span>" +
           '<span>✦ Crystals are for vibes, not medical claims ✦</span>' +
         "</div>" +
       "</footer>"

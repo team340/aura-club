@@ -83,11 +83,12 @@
           field("email", "Email", "email", "you@email.com", true, true) +
           field("first", "First name", "text", "Ari", true) +
           field("last", "Last name", "text", "Bloom", true) +
-          field("phone", "Phone (optional)", "tel", "+1 …", false) +
-          field("address", "Address", "text", "123 Aura Ave", true, true) +
-          field("city", "City", "text", "Los Angeles", true) +
-          field("zip", "ZIP / Postcode", "text", "90001", true) +
-          field("country", "Country", "text", "United States", true, true) +
+          field("address", "Address", "text", "123 Aura St", true, true) +
+          field("city", "Suburb / City", "text", "Sydney", true) +
+          field("state", "State / Territory", "text", "NSW", true) +
+          field("zip", "Postcode", "text", "2000", true) +
+          field("country", "Country", "text", "Australia", true) +
+          field("phone", "Phone (optional)", "tel", "+61 …", false, true) +
         "</div>" +
         '<button type="button" class="btn btn--ink btn--lg btn--block co-next" data-goto="2" style="margin-top:20px">Continue to shipping →</button>' +
       "</section>"
@@ -120,7 +121,7 @@
           '<label class="pay-option"><input type="radio" name="payment" value="PayPal"><span><b>PayPal</b><small>Balance or linked card</small></span></label>' +
           '<label class="pay-option"><input type="radio" name="payment" value="Apple Pay / Google Pay"><span><b>Apple Pay / Google Pay</b><small>Tap to pay</small></span></label>' +
         "</div>" +
-        '<p class="muted" style="font-size:.85rem;margin-top:12px">Demo store — placing an order just shows a confirmation. No card details are entered, nothing is charged, and nothing ships.</p>' +
+        '<p class="muted" style="font-size:.85rem;margin-top:12px">All prices are in AUD and include GST. Demo store — placing an order just shows a confirmation. No card details are entered, nothing is charged, and nothing ships.</p>' +
         '<div class="field field--full" style="margin-top:16px"><label for="f-notes">Order notes (optional)</label><textarea id="f-notes" name="notes" placeholder="Gift note, delivery tips, good vibes…"></textarea></div>' +
         '<label class="co-check"><input type="checkbox" id="f-news"><span>Email me new drops &amp; good vibes ✦ (optional)</span></label>' +
         '<div class="co-nav">' +
