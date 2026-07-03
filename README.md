@@ -42,11 +42,23 @@ python -m http.server 8000
 
 Then open the printed URL. (Opening the files directly with `file://` mostly works, but a server is recommended.)
 
-## 🌐 Deploy to GitHub Pages
+## 🌐 Live deployment
 
-1. Create a new repo and push these files to it.
-2. Repo **Settings → Pages → Deploy from branch → `main` / root**.
-3. Before submitting to search engines, update the placeholder domain in `sitemap.xml` and `robots.txt` to your live URL.
+| | |
+|---|---|
+| **Live URL** | https://team340.github.io/aura-club/ |
+| **Repository** | https://github.com/team340/aura-club |
+| **GitHub account** | **`team340`** (⚠️ different from the PepCare site, which uses `Sylrix`) |
+| **Hosting** | GitHub Pages — `main` branch, root — free, HTTPS enforced |
+
+To push updates, make sure the **team340** account is active first:
+
+```bash
+gh auth switch --user team340
+git add -A && git commit -m "your change" && git push
+```
+
+> See `../SITES.md` for the overview of both sites and their accounts.
 
 ## 🛠 Customising
 
