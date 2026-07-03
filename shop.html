@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shop ✦ Aura Club</title>
+  <meta name="description" content="Shop all handmade crystal bracelets from Aura Club — Aquamarine, Lapis Lazuli, Red Jasper & Turquoise. Real gemstones, made to order.">
+  <meta name="theme-color" content="#FBF4EC">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="site.webmanifest">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Shop ✦ Aura Club">
+  <meta property="og:description" content="Real gemstones, strung by hand, good vibes included.">
+  <meta property="og:image" content="assets/img/products/lapis-lazuli.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/tokens.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/animations.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/pages.css">
+</head>
+<body>
+  <div id="site-header"></div>
+
+  <main>
+    <section class="page-head">
+      <span class="blob" style="width:220px;height:220px;background:var(--sky);top:-40px;left:-40px;opacity:.4"></span>
+      <span class="blob" style="width:180px;height:180px;background:var(--pink);bottom:-30px;right:-30px;opacity:.35;animation-delay:-3s"></span>
+      <div class="wrap">
+        <div class="crumbs"><a href="index.html">Home</a> / Shop</div>
+        <h1 class="page-head__title">The whole <span class="grad-text">collection</span></h1>
+        <p class="page-head__sub">Four handmade gemstone bracelets, each tuned to a different mood. Filter by the energy you're after.</p>
+      </div>
+    </section>
+
+    <section class="section section--tight">
+      <div class="wrap">
+        <div class="shop-bar">
+          <div class="filters" data-filter-bar>
+            <button class="filter active" data-filter="all">All ✦</button>
+            <button class="filter" data-filter="calm">😌 Calm</button>
+            <button class="filter" data-filter="bold">🔮 Bold</button>
+            <button class="filter" data-filter="grounded">🌱 Grounded</button>
+            <button class="filter" data-filter="lucky">🍀 Lucky</button>
+          </div>
+          <p class="muted" style="margin:0;font-family:var(--font-mono);font-size:.82rem">Handmade · ships in 1–2 days</p>
+        </div>
+        <div class="grid grid--products" data-product-grid data-shop data-filter="all"></div>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/cart.js"></script>
+  <script src="assets/js/layout.js"></script>
+  <script src="assets/js/catalog.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact ✦ Aura Club</title>
+  <meta name="description" content="Questions, sizing help, or just want to say hi? Get in touch with the Aura Club studio — a real human replies within a day.">
+  <meta name="theme-color" content="#FBF4EC">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="site.webmanifest">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Contact ✦ Aura Club">
+  <meta property="og:description" content="A real human replies within a day. Say hi ✦">
+  <meta property="og:image" content="assets/img/products/aquamarine.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/tokens.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/animations.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/pages.css">
+</head>
+<body>
+  <div id="site-header"></div>
+
+  <main>
+    <section class="page-head">
+      <span class="blob" style="width:200px;height:200px;background:var(--sunny);top:-30px;left:-30px;opacity:.4"></span>
+      <div class="wrap">
+        <div class="crumbs"><a href="index.html">Home</a> / Contact</div>
+        <h1 class="page-head__title">Say <span class="grad-text">hi</span> ✦</h1>
+        <p class="page-head__sub">Sizing help, order questions, or just want to talk crystals? We're here for it.</p>
+      </div>
+    </section>
+
+    <section class="section section--tight">
+      <div class="wrap">
+        <div class="contact">
+          <div class="contact__cards reveal">
+            <div class="contact__card"><div class="feature__icon">💌</div><div><h3>Email us</h3><p>hello@auraclub.example — a real person replies, usually within a day.</p></div></div>
+            <div class="contact__card"><div class="feature__icon">📦</div><div><h3>Order help</h3><p>Include your order number and we'll sort it fast. Check <a href="shipping.html" style="text-decoration:underline">shipping</a> &amp; <a href="returns.html" style="text-decoration:underline">returns</a> too.</p></div></div>
+            <div class="contact__card"><div class="feature__icon">⏰</div><div><h3>Studio hours</h3><p>Mon–Fri, 10am–5pm. Messages sent on weekends get answered Monday ✦</p></div></div>
+            <div class="contact__card"><div class="feature__icon">❓</div><div><h3>Quick answers</h3><p>Most questions are covered in our <a href="faq.html" style="text-decoration:underline">FAQ</a>.</p></div></div>
+          </div>
+
+          <form class="card-panel reveal d2" id="contact-form" novalidate>
+            <h2 class="form-section-title">Drop us a line 📮</h2>
+            <div class="form-grid">
+              <div class="field field--full">
+                <label for="c-name">Your name</label>
+                <input id="c-name" name="name" type="text" placeholder="Ari Bloom" required autocomplete="name">
+                <span class="field__error" data-error-for="name"></span>
+              </div>
+              <div class="field field--full">
+                <label for="c-email">Email</label>
+                <input id="c-email" name="email" type="email" placeholder="you@email.com" required autocomplete="email">
+                <span class="field__error" data-error-for="email"></span>
+              </div>
+              <div class="field field--full">
+                <label for="c-subject">Subject</label>
+                <input id="c-subject" name="subject" type="text" placeholder="What's up?" required>
+                <span class="field__error" data-error-for="subject"></span>
+              </div>
+              <div class="field field--full">
+                <label for="c-message">Message</label>
+                <textarea id="c-message" name="message" placeholder="Tell us everything ✦" required></textarea>
+                <span class="field__error" data-error-for="message"></span>
+              </div>
+            </div>
+            <button class="btn btn--ink btn--lg btn--block" type="submit" style="margin-top:18px">Send message ✦</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/cart.js"></script>
+  <script src="assets/js/layout.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script>
+    (function () {
+      var form = document.getElementById("contact-form");
+      if (!form) return;
+      form.addEventListener("submit", function (e) {
+        e.preventDefault();
+        var ok = true;
+        form.querySelectorAll(".field__error").forEach(function (s) { s.textContent = ""; });
+        form.querySelectorAll("[required]").forEach(function (inp) {
+          var err = form.querySelector('[data-error-for="' + inp.name + '"]');
+          var v = inp.value.trim();
+          var msg = "";
+          if (!v) msg = "Required ✦";
+          else if (inp.type === "email" && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v)) msg = "Check your email ✦";
+          if (msg) { ok = false; if (err) err.textContent = msg; inp.setAttribute("aria-invalid", "true"); }
+          else inp.removeAttribute("aria-invalid");
+        });
+        if (!ok) { var f = form.querySelector('[aria-invalid="true"]'); if (f) f.focus(); return; }
+        form.innerHTML = '<div class="checkout__success"><span class="checkout__success-emoji">💌</span><h2>Message sent!</h2><p class="lead">Thanks for reaching out — we\'ll get back to you within a day ✦</p><a class="btn btn--pink" href="shop.html">Back to shopping</a></div>';
+        window.scrollTo({ top: form.offsetTop - 120, behavior: "smooth" });
+      });
+    })();
+  </script>
+</body>
+</html>

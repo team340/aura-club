@@ -1,0 +1,12 @@
+{
+  "name": "Aura Club",
+  "short_name": "Aura Club",
+  "description": "Handmade crystal & gemstone bracelets. Wear your aura.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#FBF4EC",
+  "theme_color": "#6C4CF1",
+  "icons": [
+    { "src": "assets/img/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

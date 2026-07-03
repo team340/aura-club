@@ -1,0 +1,105 @@
+/* ============================================================
+   AURA CLUB — Animation library (pure CSS)
+   ============================================================ */
+
+@keyframes aura-drift {
+  0%   { transform: translate3d(0,0,0) rotate(0deg) scale(1); }
+  50%  { transform: translate3d(2%, -2%, 0) rotate(4deg) scale(1.06); }
+  100% { transform: translate3d(-2%, 2%, 0) rotate(-3deg) scale(1.02); }
+}
+
+@keyframes hue-slide {
+  0%, 100% { background-position: 0% 50%; }
+  50%      { background-position: 100% 50%; }
+}
+
+@keyframes float-y {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(-16px); }
+}
+
+@keyframes float-y-2 {
+  0%, 100% { transform: translateY(0) rotate(-4deg); }
+  50%      { transform: translateY(-22px) rotate(4deg); }
+}
+
+@keyframes blob-morph {
+  0%, 100% { border-radius: 42% 58% 63% 37% / 42% 44% 56% 58%; }
+  33%      { border-radius: 62% 38% 41% 59% / 59% 62% 38% 41%; }
+  66%      { border-radius: 38% 62% 56% 44% / 45% 38% 62% 55%; }
+}
+
+@keyframes spin-slow { to { transform: rotate(360deg); } }
+@keyframes spin-rev  { to { transform: rotate(-360deg); } }
+
+@keyframes wobble {
+  0%, 100% { transform: rotate(0deg); }
+  25%      { transform: rotate(-3deg); }
+  75%      { transform: rotate(3deg); }
+}
+
+@keyframes pop-in {
+  0%   { transform: scale(0.6); opacity: 0; }
+  60%  { transform: scale(1.08); }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+@keyframes twinkle {
+  0%, 100% { transform: scale(1) rotate(0deg); opacity: 1; }
+  50%      { transform: scale(0.4) rotate(90deg); opacity: 0.35; }
+}
+
+@keyframes marquee-x {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+
+@keyframes bob-arrow {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(8px); }
+}
+
+@keyframes shine {
+  0%   { transform: translateX(-120%) skewX(-18deg); }
+  60%, 100% { transform: translateX(240%) skewX(-18deg); }
+}
+
+/* --- Animation utility classes --- */
+.anim-float   { animation: float-y 5s var(--ease-out) infinite; }
+.anim-float-2 { animation: float-y-2 7s var(--ease-out) infinite; }
+.anim-spin    { animation: spin-slow 18s linear infinite; }
+.anim-spin-rev{ animation: spin-rev 22s linear infinite; }
+.anim-wobble  { animation: wobble 3s ease-in-out infinite; }
+.anim-twinkle { animation: twinkle 2.4s ease-in-out infinite; }
+.anim-pop     { animation: pop-in 0.5s var(--ease-jelly) both; }
+
+/* Staggered floats so multiple beads don't move in lockstep */
+.delay-1 { animation-delay: 0.4s; }
+.delay-2 { animation-delay: 0.9s; }
+.delay-3 { animation-delay: 1.4s; }
+.delay-4 { animation-delay: 1.9s; }
+
+/* --- Scroll reveal (JS toggles .in) --- */
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.7s var(--ease-out), transform 0.7s var(--ease-out);
+  will-change: opacity, transform;
+}
+.reveal.in { opacity: 1; transform: none; }
+.reveal.d1 { transition-delay: 0.08s; }
+.reveal.d2 { transition-delay: 0.16s; }
+.reveal.d3 { transition-delay: 0.24s; }
+.reveal.d4 { transition-delay: 0.32s; }
+.reveal.d5 { transition-delay: 0.40s; }
+
+/* Reduced motion: calm everything down */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+  .reveal { opacity: 1 !important; transform: none !important; }
+}
