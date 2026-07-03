@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0">
+  <channel>
+    <title>Aura Club</title>
+    <link>https://team340.github.io/aura-club/</link>
+    <description>Handmade crystal &amp; gemstone bracelets. Prices in AUD, incl. GST. Ships Australia-wide.</description>
+    <item>
+      <g:id>AC-AQUA-01</g:id>
+      <title>Aura Club Aquamarine Dream - Handmade Aquamarine Crystal Bracelet</title>
+      <description>The Aquamarine Dream is a handmade stretch bracelet strung with genuine 8mm aquamarine beads for cool-toned calm and clarity. Made to order on durable elastic cord, designed to fit most wrists (16-20cm). A natural gemstone, so every bead is a little different. Ships Australia-wide.</description>
+      <link>https://team340.github.io/aura-club/aquamarine-dream.html</link>
+      <g:image_link>https://team340.github.io/aura-club/assets/img/products/aquamarine.png</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>38.00 AUD</g:price>
+      <g:brand>Aura Club</g:brand>
+      <g:condition>new</g:condition>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>191</g:google_product_category>
+      <g:product_type>Jewellery &gt; Bracelets &gt; Crystal &amp; Gemstone</g:product_type>
+      <g:color>Aqua</g:color>
+      <g:size>One Size</g:size>
+      <g:gender>unisex</g:gender>
+      <g:age_group>adult</g:age_group>
+      <g:material>Genuine aquamarine gemstone</g:material>
+    </item>
+    <item>
+      <g:id>AC-LAPIS-01</g:id>
+      <title>Aura Club Lapis Lore - Handmade Lapis Lazuli Crystal Bracelet</title>
+      <description>The Lapis Lore is a handmade stretch bracelet strung with genuine 8mm lapis lazuli beads flecked with pyrite, in deep royal blue with a hint of gold. Made to order on durable elastic cord, fits most wrists (16-20cm). A natural gemstone; gold flecks vary bead to bead. Ships Australia-wide.</description>
+      <link>https://team340.github.io/aura-club/lapis-lore.html</link>
+      <g:image_link>https://team340.github.io/aura-club/assets/img/products/lapis-lazuli.png</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>52.00 AUD</g:price>
+      <g:sale_price>44.00 AUD</g:sale_price>
+      <g:brand>Aura Club</g:brand>
+      <g:condition>new</g:condition>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>191</g:google_product_category>
+      <g:product_type>Jewellery &gt; Bracelets &gt; Crystal &amp; Gemstone</g:product_type>
+      <g:color>Blue</g:color>
+      <g:size>One Size</g:size>
+      <g:gender>unisex</g:gender>
+      <g:age_group>adult</g:age_group>
+      <g:material>Genuine lapis lazuli with pyrite</g:material>
+    </item>
+    <item>
+      <g:id>AC-JASP-01</g:id>
+      <title>Aura Club Red Jasper Rush - Handmade Red Jasper Crystal Bracelet</title>
+      <description>The Red Jasper Rush is a handmade stretch bracelet strung with genuine 8mm red jasper beads for earthy, grounding, confident energy. Made to order on durable elastic cord, fits most wrists (16-20cm). A natural gemstone; warm reds shift in the light. Ships Australia-wide.</description>
+      <link>https://team340.github.io/aura-club/red-jasper-rush.html</link>
+      <g:image_link>https://team340.github.io/aura-club/assets/img/products/red-jasper.png</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>36.00 AUD</g:price>
+      <g:brand>Aura Club</g:brand>
+      <g:condition>new</g:condition>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>191</g:google_product_category>
+      <g:product_type>Jewellery &gt; Bracelets &gt; Crystal &amp; Gemstone</g:product_type>
+      <g:color>Red</g:color>
+      <g:size>One Size</g:size>
+      <g:gender>unisex</g:gender>
+      <g:age_group>adult</g:age_group>
+      <g:material>Genuine red jasper gemstone</g:material>
+    </item>
+    <item>
+      <g:id>AC-TURQ-01</g:id>
+      <title>Aura Club Turquoise Talisman - Handmade Turquoise Crystal Bracelet</title>
+      <description>The Turquoise Talisman is a handmade stretch bracelet strung with genuine 8mm turquoise (howlite-matrix) beads, the classic good-luck stone. Made to order on durable elastic cord, fits most wrists (16-20cm). A natural gemstone; matrix veining is one of a kind. Ships Australia-wide.</description>
+      <link>https://team340.github.io/aura-club/turquoise-talisman.html</link>
+      <g:image_link>https://team340.github.io/aura-club/assets/img/products/turquoise.png</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>40.00 AUD</g:price>
+      <g:brand>Aura Club</g:brand>
+      <g:condition>new</g:condition>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>191</g:google_product_category>
+      <g:product_type>Jewellery &gt; Bracelets &gt; Crystal &amp; Gemstone</g:product_type>
+      <g:color>Turquoise</g:color>
+      <g:size>One Size</g:size>
+      <g:gender>unisex</g:gender>
+      <g:age_group>adult</g:age_group>
+      <g:material>Genuine turquoise (howlite-matrix)</g:material>
+    </item>
+  </channel>
+</rss>
