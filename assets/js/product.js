@@ -25,12 +25,12 @@
   function relatedCard(p) {
     return (
       '<article class="card reveal" style="--accent:' + p.color + '">' +
-        '<a class="card__media" href="product.html?id=' + p.id + '" aria-label="' + p.name + '">' +
+        '<a class="card__media" href="' + p.url + '" aria-label="' + p.name + '">' +
           '<span class="card__gem">' + p.gem + "</span>" +
           '<img class="card__img" src="' + p.img + '" alt="' + p.name + '" loading="lazy" width="1080" height="1080">' +
         "</a>" +
         '<div class="card__body">' +
-          '<h3 class="card__name"><a href="product.html?id=' + p.id + '">' + p.name + "</a></h3>" +
+          '<h3 class="card__name"><a href="' + p.url + '">' + p.name + "</a></h3>" +
           '<div class="card__row"><span class="card__price">' + A.money(p.price) + "</span>" +
           '<button class="btn btn--sm btn--lime" data-add-to-cart="' + p.id + '" data-open="false">Add ✦</button></div>' +
         "</div>" +
@@ -38,7 +38,7 @@
     );
   }
 
-  var p = A.get(param("id"));
+  var p = A.get(window.AURA_PID || param("id"));
 
   if (!p) {
     document.title = "Not found ✦ Aura Club";

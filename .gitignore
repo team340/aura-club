@@ -1,0 +1,6 @@
+# Product feed CSVs (local deliverables for Merchant Center, not hosted)
+*.csv
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db

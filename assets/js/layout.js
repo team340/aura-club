@@ -54,7 +54,7 @@
   function buildFooter() {
     var year = new Date().getFullYear();
     var shopLinks = window.AURA.products.map(function (p) {
-      return '<a class="footer__link" href="product.html?id=' + p.id + '">' + p.name + "</a>";
+      return '<a class="footer__link" href="' + p.url + '">' + p.name + "</a>";
     }).join("");
 
     return (
