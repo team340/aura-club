@@ -7,10 +7,7 @@
 
   var ICON = {
     bag: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8h12l1 12H5L6 8Z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg>',
-    menu: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>',
-    ig: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>',
-    tk: '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 3c.3 2.3 1.7 3.9 4 4.2v3c-1.5 0-2.8-.4-4-1.1V15a6 6 0 1 1-6-6c.3 0 .7 0 1 .1v3.1c-.3-.1-.7-.2-1-.2a3 3 0 1 0 3 3V3h3Z"/></svg>',
-    pin: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a8 8 0 0 0-3 15.4c-.1-1.2-.2-3 .1-4.2l1-4s-.3-.5-.3-1.3c0-1.2.7-2.1 1.6-2.1.7 0 1.1.6 1.1 1.3 0 .8-.5 2-.8 3.1-.2.9.5 1.6 1.4 1.6 1.7 0 2.8-2.1 2.8-4.6 0-1.9-1.3-3.3-3.6-3.3A4.1 4.1 0 0 0 9.4 12c0 .8.3 1.4.6 1.8l-.4 1.5c-.5-.2-1.4-1.4-1.4-3A6 6 0 1 1 12 3Z"/></svg>'
+    menu: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>'
   };
 
   var NAV = [
@@ -71,11 +68,6 @@
               '<input type="email" name="email" placeholder="your@email.com" aria-label="Email for newsletter" required>' +
               '<button class="btn btn--lime btn--sm" type="submit">Join ✦</button>' +
             "</form>" +
-            '<div class="footer__social">' +
-              '<button class="soc-btn" data-soc aria-label="Instagram">' + ICON.ig + "</button>" +
-              '<button class="soc-btn" data-soc aria-label="TikTok">' + ICON.tk + "</button>" +
-              '<button class="soc-btn" data-soc aria-label="Pinterest">' + ICON.pin + "</button>" +
-            "</div>" +
           "</div>" +
           '<div class="footer__col"><h4>Shop</h4>' +
             '<a class="footer__link" href="shop.html">Shop all</a>' + shopLinks +
@@ -150,17 +142,13 @@
       });
     }
 
-    // Newsletter + social = friendly fake actions (no external redirects)
+    // Newsletter = friendly fake action (no external redirects)
     document.addEventListener("submit", function (e) {
       if (e.target && e.target.id === "news-form") {
         e.preventDefault();
         if (window.Cart) window.Cart.toast("You're on the list", "💌");
         e.target.reset();
       }
-    });
-    document.addEventListener("click", function (e) {
-      var s = e.target.closest("[data-soc]");
-      if (s && window.Cart) window.Cart.toast("DMs open soon", "💌");
     });
 
     if (window.Cart) window.Cart.init();
