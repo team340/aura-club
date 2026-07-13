@@ -1,16 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://team340.github.io/aura-club/</loc><lastmod>2026-07-13</lastmod></url>
-  <url><loc>https://team340.github.io/aura-club/shop.html</loc><lastmod>2026-07-13</lastmod></url>
-  <url><loc>https://team340.github.io/aura-club/aquamarine-dream.html</loc><lastmod>2026-07-13</lastmod></url>
-  <url><loc>https://team340.github.io/aura-club/lapis-lore.html</loc><lastmod>2026-07-13</lastmod></url>
-  <url><loc>https://team340.github.io/aura-club/red-jasper-rush.html</loc><lastmod>2026-07-13</lastmod></url>
-  <url><loc>https://team340.github.io/aura-club/turquoise-talisman.html</loc><lastmod>2026-07-13</lastmod></url>
-  <url><loc>https://team340.github.io/aura-club/about.html</loc><lastmod>2026-07-13</lastmod></url>
-  <url><loc>https://team340.github.io/aura-club/contact.html</loc><lastmod>2026-07-13</lastmod></url>
-  <url><loc>https://team340.github.io/aura-club/faq.html</loc><lastmod>2026-07-13</lastmod></url>
-  <url><loc>https://team340.github.io/aura-club/shipping.html</loc><lastmod>2026-07-13</lastmod></url>
-  <url><loc>https://team340.github.io/aura-club/returns.html</loc><lastmod>2026-07-13</lastmod></url>
-  <url><loc>https://team340.github.io/aura-club/privacy.html</loc><lastmod>2026-07-13</lastmod></url>
-  <url><loc>https://team340.github.io/aura-club/terms.html</loc><lastmod>2026-07-13</lastmod></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://team340.github.io/aura-club/</loc>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://team340.github.io/aura-club/shop.html</loc>
+    <lastmod>2026-07-13T10:00:00+10:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://team340.github.io/aura-club/aquamarine-dream.html</loc>
+    <lastmod>2026-07-13T10:00:00+10:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <image:image>
+      <image:loc>https://team340.github.io/aura-club/assets/img/products/aquamarine.png</image:loc>
+      <image:title>Aquamarine Dream</image:title>
+      <image:caption>Aquamarine Dream - Handmade Aquamarine Crystal Bracelet - Aura Club</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://team340.github.io/aura-club/lapis-lore.html</loc>
+    <lastmod>2026-07-13T10:00:00+10:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <image:image>
+      <image:loc>https://team340.github.io/aura-club/assets/img/products/lapis-lazuli.png</image:loc>
+      <image:title>Lapis Lore</image:title>
+      <image:caption>Lapis Lore - Handmade Lapis Lazuli Crystal Bracelet - Aura Club</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://team340.github.io/aura-club/red-jasper-rush.html</loc>
+    <lastmod>2026-07-13T10:00:00+10:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <image:image>
+      <image:loc>https://team340.github.io/aura-club/assets/img/products/red-jasper.png</image:loc>
+      <image:title>Red Jasper Rush</image:title>
+      <image:caption>Red Jasper Rush - Handmade Red Jasper Crystal Bracelet - Aura Club</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://team340.github.io/aura-club/turquoise-talisman.html</loc>
+    <lastmod>2026-07-13T10:00:00+10:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <image:image>
+      <image:loc>https://team340.github.io/aura-club/assets/img/products/turquoise.png</image:loc>
+      <image:title>Turquoise Talisman</image:title>
+      <image:caption>Turquoise Talisman - Handmade Turquoise Crystal Bracelet - Aura Club</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://team340.github.io/aura-club/about.html</loc>
+    <lastmod>2026-07-13T10:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://team340.github.io/aura-club/contact.html</loc>
+    <lastmod>2026-07-13T10:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://team340.github.io/aura-club/faq.html</loc>
+    <lastmod>2026-07-13T10:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://team340.github.io/aura-club/shipping.html</loc>
+    <lastmod>2026-07-13T10:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://team340.github.io/aura-club/returns.html</loc>
+    <lastmod>2026-07-13T10:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://team340.github.io/aura-club/privacy.html</loc>
+    <lastmod>2026-07-13T10:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://team340.github.io/aura-club/terms.html</loc>
+    <lastmod>2026-07-13T10:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
 </urlset>
